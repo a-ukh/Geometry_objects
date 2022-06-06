@@ -7,7 +7,7 @@ int main()
 	std::cout << rect.area() << std::endl;
 	rect.show('a');
 
-	Triangle tr(4, 4, 5);
+	Triangle tr(4, 4, 6);
 	if (tr.isTriangle())
 	{
 		std::cout << tr.area() << std::endl;
@@ -16,9 +16,9 @@ int main()
 	else
 		std::cout << "Such triangle does not exist!\n";
 
-	Circle cir(6);
+	Circle cir(10);
 	std::cout << cir.area() << std::endl;
-	cir.show();
+	cir.show('a');
 
 	Polygon p(2., 5);
 	std::cout << p.area() << std::endl;

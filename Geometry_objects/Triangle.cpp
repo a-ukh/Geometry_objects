@@ -3,6 +3,7 @@
 
 Triangle::Triangle(const double a, const double b, const double c) : m_a(a), m_b(b), m_c(c) {}
 
+//проверка треугольника на существование
 bool Triangle::isTriangle()
 {
 	if ((m_a + m_b > m_c) && (m_a + m_c > m_b) && (m_b + m_c > m_a))
@@ -11,6 +12,9 @@ bool Triangle::isTriangle()
 		return 0;
 }
 
+//проверка треугольника на равнобедренность
+//возвращаемое значение определяет, какие стороны равны
+//от этого затем зависит вывод равнобедренного треугольника на экран
 int Triangle::isIsosceles()
 {
 	if (m_a == m_b)
