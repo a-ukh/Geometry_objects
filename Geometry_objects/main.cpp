@@ -8,7 +8,7 @@ int main()
 {
 	Rectangle rect(3, 5);
 	std::cout << rect.area() << std::endl;
-	rect.show();
+	rect.show('a');
 
 	Triangle tr(3, 4, 5);
 	std::cout << tr.area() << std::endl;

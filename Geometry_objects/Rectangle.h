@@ -13,7 +13,7 @@ public:
 	Rectangle(const double length, const double width);
 	double area();
 	double perimeter();
-	void show();
+	void show(const char symbol = '*');
 };
 
 #endif

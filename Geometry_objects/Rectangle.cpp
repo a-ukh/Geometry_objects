@@ -13,16 +13,16 @@ double Rectangle::area()
 	return r_length * r_width;
 }
 
-void Rectangle::show()
+void Rectangle::show(const char symbol)
 {
     for (size_t i = 0; i < r_width; ++i) 
     {
         for (size_t j = 0; j < r_length; ++j) 
         {
             if (i == 0 || i == r_width - 1) 
-                std::cout << "*";
+                std::cout << symbol;
             else if (j == 0 || j == r_length - 1) 
-                std::cout << "*";
+                std::cout << symbol;
             else 
                 std::cout << " ";
         }
