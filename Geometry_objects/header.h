@@ -5,5 +5,6 @@
 #include "Rectangle.h"
 #include "Triangle.h"
 #include "Circle.h"
+#include "Polygon.h"
 
 #endif
