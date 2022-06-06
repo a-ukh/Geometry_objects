@@ -24,7 +24,6 @@ void Circle::show(const char symbol)
         {
             if ((int)std::sqrt(x * x + y * y) == m_radius)
                 std::cout << symbol;
- 
             else 
                 std::cout << ' ';
         }
