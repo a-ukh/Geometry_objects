@@ -5,8 +5,7 @@
 
 class Circle : public Figure
 {
-private:
-	double c_radius;
+	double m_radius;
 
 public:
 	Circle(const double radius);

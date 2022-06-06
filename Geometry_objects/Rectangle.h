@@ -5,9 +5,8 @@
 
 class Rectangle : public Figure
 {
-private:
-	double r_length;
-	double r_width;
+	double m_length;
+	double m_width;
 
 public:
 	Rectangle(const double length, const double width);

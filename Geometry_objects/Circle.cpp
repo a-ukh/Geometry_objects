@@ -1,17 +1,19 @@
 #include "Circle.h"
-#define _USE_MATH_DEFINES
-#include <cmath>
+#include <numbers>
+#include <math.h>
+#include <iostream>
 
-Circle::Circle(const double radius) : c_radius(radius) {}
+
+Circle::Circle(const double radius) : m_radius(radius) {}
 
 double Circle::perimeter()
 {
-	return 2. * M_PI * c_radius;
+	return 2. * std::numbers::pi * m_radius;
 }
 
 double Circle::area()
 {
-	return M_PI * c_radius * c_radius;
+	return std::numbers::pi * m_radius * m_radius;
 }
 
 void Circle::show(const char symbol) { }
