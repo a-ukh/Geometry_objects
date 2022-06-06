@@ -1,8 +1,5 @@
 #include <iostream>
-#include "Figure.h"
-#include "Rectangle.h"
-#include "Triangle.h"
-#include "Circle.h"
+#include "header.h"
 
 int main()
 {
