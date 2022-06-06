@@ -3,11 +3,11 @@
 
 class Figure
 {
-
 public:
-	double area();
-	double perimeter();
-	void show();
+	virtual ~Figure() noexcept = default;
+	virtual double area() = 0;
+	virtual double perimeter() = 0;
+	virtual void show(const char symbol = '*') = 0;
 };
 
 #endif

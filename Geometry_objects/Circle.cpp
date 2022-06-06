@@ -14,4 +14,4 @@ double Circle::area()
 	return M_PI * c_radius * c_radius;
 }
 
-void Circle::show() { }
+void Circle::show(const char symbol) { }

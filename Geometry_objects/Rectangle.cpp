@@ -5,7 +5,7 @@ Rectangle::Rectangle(const double length, const double width) : r_length(length)
 
 double Rectangle::perimeter()
 {
-    return 2. * r_length + 2. * r_width;
+    return 2. * (r_length + r_width);
 }
 
 double Rectangle::area()

@@ -11,9 +11,9 @@ private:
 
 public:
 	Rectangle(const double length, const double width);
-	double area();
-	double perimeter();
-	void show(const char symbol = '*');
+	double area() override;
+	double perimeter() override;
+	void show(const char symbol = '*') override;
 };
 
 #endif

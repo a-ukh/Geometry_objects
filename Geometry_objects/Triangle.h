@@ -12,9 +12,9 @@ private:
 
 public:
 	Triangle(const double a, const double b, const double c);
-	double perimeter();
-	double area();
-	void show();
+	double perimeter() override;
+	double area() override;
+	void show(const char symbol = '*') override;
 };
 
 #endif

@@ -14,4 +14,4 @@ double Triangle::area()
 	return std::sqrt(p * (p - t_a) * (p - t_b) * (p - t_c));
 }
 
-void Triangle::show() { }
+void Triangle::show(const char symbol) { }
